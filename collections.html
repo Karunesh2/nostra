@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra | Collections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Nostra</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="controls" style="margin-bottom: 30px; display: flex; gap: 10px; flex-wrap: wrap;">
+            <input type="text" id="search" placeholder="Search products..." style="padding: 10px; flex: 1;">
+            
+            <div>
+                <label><input type="checkbox" class="filter" value="Summer"> Summer</label>
+                <label><input type="checkbox" class="filter" value="Winter"> Winter</label>
+                <label><input type="checkbox" class="filter" value="Beach"> Beach</label>
+            </div>
+        </div>
+
+        <div class="product-grid" id="product-list">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
